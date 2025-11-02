@@ -1,0 +1,94 @@
+<!-- Message Screen -->
+<div id="message-screen" class="screen">
+    <div class="page-container">
+        <div class="page-screen">
+            <!-- Content will be populated by JavaScript -->
+        </div>
+        <div class="page-controls">
+            <button class="page-btn back-btn" data-page="main">BACK</button>
+            <button class="page-btn continue-btn">NEXT</button>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Screen -->
+<div id="gallery-screen" class="screen">
+    <div class="page-container">
+        <div class="page-screen">
+            <div class="page-header">Gallery</div>
+            <div class="gallery-content">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="page-controls">
+            <button class="page-btn back-btn" data-page="main">BACK</button>
+            <button class="page-btn continue-btn">NEXT</button>
+        </div>
+    </div>
+</div>
+
+<!-- Music Screen -->
+<div id="music-screen" class="screen">
+    <div class="page-container">
+        <div class="page-screen">
+            <div class="page-header">Music Player</div>
+            <div class="music-content">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="page-controls">
+            <button class="page-btn back-btn" data-page="main">BACK</button>
+            <button class="page-btn continue-btn">NEXT</button>
+        </div>
+    </div>
+</div>
+
+<!-- Tetris Screen -->
+<div id="tetris-screen" class="screen">
+    <div class="page-container">
+        <div class="page-screen">
+            <div class="tetris-header">
+                <div class="tetris-title">Tetris</div>
+                <div class="tetris-stats">
+                    <div class="stat">Score: <span id="score">0</span></div>
+                    <div class="stat">Level: <span id="level">1</span></div>
+                    <div class="stat">Lines: <span id="lines">0</span></div>
+                </div>
+            </div>
+            <div class="tetris-game">
+                <canvas id="tetris-canvas" width="300" height="400"></canvas>
+            </div>
+            <div class="tetris-controls">
+                <button class="tetris-btn" id="left-btn">◀</button>
+                <button class="tetris-btn" id="rotate-btn">ROTATE</button>
+                <button class="tetris-btn" id="right-btn">▶</button>
+            </div>
+        </div>
+        <div class="page-controls">
+            <button class="page-btn back-btn" data-page="main">BACK</button>
+        </div>
+    </div>
+</div>
+
+<!-- Game Over Modal -->
+<div id="game-over-modal" class="modal">
+    <div class="modal-content">
+        <div class="game-over-text">GAME OVER</div>
+        <button class="modal-btn" id="confirm-btn">CONFIRM</button>
+    </div>
+</div>
+
+<!-- Final Message Modal -->
+<div id="final-message-modal" class="modal">
+    <div class="modal-content">
+        <div class="final-message-title">REMEMBER THIS!</div>
+        <div class="final-message-text">
+            <p>Even if you lose the game,</p>
+            <p>you always win</p>
+            <p>in my heart, Ayang. HEHE</p>
+            <p>^_^</p>
+            <p class="love-text">I LOVE YOU, SYU &lt;3</p>
+        </div>
+        <button class="modal-btn" id="ok-btn">OK</button>
+    </div>
+</div>
